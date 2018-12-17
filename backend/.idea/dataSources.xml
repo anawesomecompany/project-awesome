@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="bounty-0-1@bounty-0-1.cdpuzhwaizaa.us-west-1.rds.amazonaws.com" uuid="c1524405-bab1-4f2f-9982-836652aa137b">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://bounty-0-1.cdpuzhwaizaa.us-west-1.rds.amazonaws.com:3306/bounty-0-1</jdbc-url>
+    </data-source>
+  </component>
+</project>

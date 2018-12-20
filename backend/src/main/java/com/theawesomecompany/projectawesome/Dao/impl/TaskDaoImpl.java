@@ -21,7 +21,8 @@ public class TaskDaoImpl implements TaskDao{
 
     @Override
     public void save(Task task) {
-        this.sessionFactory.getCurrentSession().persist(task);
+        Session session = this.sessionFactory.getCurrentSession();
+        session.persist(task);
     }
 
     @Override

@@ -1,1 +1,9 @@
+com/theawesomecompany/projectawesome/service/TaskService.class
+com/theawesomecompany/projectawesome/Dao/impl/TaskDaoImpl.class
+com/theawesomecompany/projectawesome/controller/UserController.class
+com/theawesomecompany/projectawesome/service/impl/TaskServiceImpl.class
+com/theawesomecompany/projectawesome/controller/TaskController.class
+com/theawesomecompany/projectawesome/model/enums/TaskStatus.class
+com/theawesomecompany/projectawesome/Dao/TaskDao.class
 com/theawesomecompany/projectawesome/ProjectAwesomeApplication.class
+com/theawesomecompany/projectawesome/model/Task.class

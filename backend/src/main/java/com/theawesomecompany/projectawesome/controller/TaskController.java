@@ -35,7 +35,7 @@ public class TaskController {
             return new ResponseEntity<Map<String, String>>(errorMap, HttpStatus.BAD_REQUEST);
         }
 
-        //taskService.save(task);
+        taskService.save(task);
 
         return new ResponseEntity<Task>(task,HttpStatus.CREATED);
     }

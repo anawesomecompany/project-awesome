@@ -2,10 +2,17 @@ package com.theawesomecompany.projectawesome.model;
 
 import com.theawesomecompany.projectawesome.model.enums.TaskStatus;
 
+import javax.persistence.*;
 import java.io.Serializable;
 
+
+@Entity
 public class Task implements Serializable{
 
+    @Id
+    @Column(name="id")
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    private int id;
     private String taskName;
     private String taskDescription;
     private TaskStatus taskStatus;
@@ -19,6 +26,14 @@ public class Task implements Serializable{
         this.taskDescription = taskDescription;
         this.taskStatus = taskStatus;
         this.taskBounty = taskBounty;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTaskName() {
@@ -51,5 +66,16 @@ public class Task implements Serializable{
 
     public void setTaskBounty(double taskBounty) {
         this.taskBounty = taskBounty;
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", taskName='" + taskName + '\'' +
+                ", taskDescription='" + taskDescription + '\'' +
+                ", taskStatus=" + taskStatus +
+                ", taskBounty=" + taskBounty +
+                '}';
     }
 }

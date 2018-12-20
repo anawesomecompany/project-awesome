@@ -1,1 +1,9 @@
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/service/impl/TaskServiceImpl.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/Dao/impl/TaskDaoImpl.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/controller/UserController.java
 /Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/ProjectAwesomeApplication.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/model/enums/TaskStatus.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/Dao/TaskDao.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/controller/TaskController.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/model/Task.java
+/Users/youzhedou/Desktop/Java_Workspace/project-awesome-dev/project-awesome/backend/src/main/java/com/theawesomecompany/projectawesome/service/TaskService.java

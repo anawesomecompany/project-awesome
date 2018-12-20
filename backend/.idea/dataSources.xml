@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@awesome-project-db.cbgwjvxz0mfu.us-west-1.rds.amazonaws.com" uuid="7f9cf7f8-f97e-48d3-bde0-d595a4daf68d">
+    <data-source source="LOCAL" name="@awesome-project-db.cbgwjvxz0mfu.us-west-1.rds.amazonaws.com" uuid="7c644d52-2fe3-4590-a1bd-544c060ae348">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://awesome-project-db.cbgwjvxz0mfu.us-west-1.rds.amazonaws.com:3306</jdbc-url>
       <driver-properties>
